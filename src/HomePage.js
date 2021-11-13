@@ -1,42 +1,43 @@
 import React from 'react';
 
-const HomePage = () => {
-  return (
-    <div className='homepage'>
-      <div className='directory-item'>
-        <div className='menu-item'>
-          <div className='content'>
-            <h1 className='title'>HATS</h1>
-            <span className='subtitle'>SHOP NOW</span>
-          </div>
+import './homepage.styles.scss';
+
+const HomePage = () => (
+  <div className='homepage'>
+    <h1>Welcome to Listerbox Clothing</h1>
+    <div className='directory-menu'>
+      <div className='menu-item'>
+        <div className='content'>
+          <div className='title'>HATS</div>
+          <span className='subtitle'>SHOP NOW</span>
         </div>
-        <div className='menu-item'>
-          <div className='content'>
-            <h1 className='title'>HATS</h1>
-            <span className='subtitle'>SHOP NOW</span>
-          </div>
+      </div>
+      <div className='menu-item'>
+        <div className='content'>
+          <div className='title'>JACKETS</div>
+          <span className='subtitle'>SHOP NOW</span>
         </div>
-        <div className='menu-item'>
-          <div className='content'>
-            <h1 className='title'>JACKETS</h1>
-            <span className='subtitle'>SHOP NOW</span>
-          </div>
+      </div>
+      <div className='menu-item'>
+        <div className='content'>
+          <div className='title'>SHOES</div>
+          <span className='subtitle'>SHOP NOW</span>
         </div>
-        <div className='menu-item'>
-          <div className='content'>
-            <h1 className='title'>WOMEN</h1>
-            <span className='subtitle'>SHOP NOW</span>
-          </div>
+      </div>
+      <div className='menu-item'>
+        <div className='content'>
+          <div className='title'>WOMEN</div>
+          <span className='subtitle'>SHOP NOW</span>
         </div>
-        <div className='menu-item'>
-          <div className='content'>
-            <h1 className='title'>MEN</h1>
-            <span className='subtitle'>SHOP NOW</span>
-          </div>
+      </div>
+      <div className='menu-item'>
+        <div className='content'>
+          <div className='title'>MEN</div>
+          <span className='subtitle'>SHOP NOW</span>
         </div>
       </div>
     </div>
-  );
-};
+  </div>
+);
 
 export default HomePage;
